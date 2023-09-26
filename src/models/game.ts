@@ -2,7 +2,7 @@ export class Game {
     public players: string[] = [];
     public stack: string[] = [];
     public playedCards: string[] = [];
-    public currentPlayer: number[] = [];
+    public currentPlayer: number = 0;
 
     constructor() {
 
